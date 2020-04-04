@@ -14,15 +14,18 @@ int main(void)
     // produce pyramid
     for (int i = 0; i < h; i++)
     {
+        // sets number of leading spaces
        for (int d = h-i-1; d > 0; d--)
        {
            printf(" ");
        }
+       //sets number of # per line
        for (int j = -1; j < i; j++)
         {
             printf("#");
         }
         {
+            //new row when previous row number is less than height
             printf("\n");
         }
         
