@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <math.h>
 
-int main (void)
+int main(void)
 {
     //prompt user for positive value
     float D;
@@ -30,6 +30,6 @@ int main (void)
     //determine total number of coins (T)
     int T = (q + d + n + p);
     {
-    printf("%d\n", T);
+        printf("%d\n", T);
     }
 }
